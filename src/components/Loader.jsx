@@ -35,7 +35,7 @@ const Loader = ({ onLoaderComplete }) => {
 
   return (
     <motion.div
-      className="h-screen w-full fixed top-0 left-0 background flex flex-col items-center justify-center pointer-events-none"
+      className="h-screen w-full fixed top-0 left-0 background flex flex-col items-center justify-center pointer-events-none px-2"
       initial={{ opacity: 1 }}
       animate={{ opacity: isLoaderDone ? 0 : 1 }}
       transition={{ duration: 0.5 }}
@@ -53,7 +53,7 @@ const Loader = ({ onLoaderComplete }) => {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-[3.5vw] font-bold"
+          className="text-[3.5vw] font-bold max-sm:text-[7vw] max-sm:leading-[7vw] max-sm:text-center"
         >
           {displayedText}
         </motion.p>

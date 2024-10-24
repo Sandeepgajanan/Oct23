@@ -3,6 +3,14 @@ import secondimg from '../assets/2nd.jpg'
 import famous from '../assets/famous.jpg'
 import nawaz from '../assets/nawaz.jpg'
 
+export const storyLines = [
+  "Let me tell you a story of a boy and a newspaper.",
+  "A boy searched the newspaper daily.",
+  "Months passed. He waited, looking sad.",
+  "On October 24, 2022, his face brightened while reading.",
+  "He screamed, 'My hero is back!'",
+  "Let's see what's in that newspaper."
+]
 export const navdata = [
   "October 23, 2022",
   "ICC Men's T20 World Cup",

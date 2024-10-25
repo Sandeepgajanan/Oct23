@@ -11,7 +11,11 @@
   font-family: var;
   src: url(../var.woff2);
 }
-
+*{
+::selection{
+  color:blue
+};
+}
 body {
   font-family: retro;
 }
